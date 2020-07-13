@@ -1,5 +1,5 @@
 * {
-    border :solid red; 
+    border: solid red; 
     }
     
     body {
@@ -7,6 +7,24 @@
     }
     
     .list{
-      display :flex;
-      list-style-type :none;
+      display: flex;
+      list-style-type: none;
+      text-align: justified right;
+      align-content: space-between;
+      justify-content: flex-end;
+    }
+    
+    .aboutme {
+      display: flex;
+      justify-content: center;
+    }
+    
+    #holdmytext {
+      display: flex;
+      justify-content: center;
+    }
+    
+    p {
+      display: flex;
+      justify-content: center;
     }
