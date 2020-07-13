@@ -1,0 +1,12 @@
+* {
+    border :solid red; 
+    }
+    
+    body {
+      background-color: rgb(233, 220, 229);
+    }
+    
+    .list{
+      display :flex;
+      list-style-type :none;
+    }
