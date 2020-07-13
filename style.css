@@ -1,30 +1,44 @@
 * {
-    border: solid red; 
-    }
-    
-    body {
-      background-color: rgb(233, 220, 229);
-    }
-    
-    .list{
-      display: flex;
-      list-style-type: none;
-      text-align: justified right;
-      align-content: space-between;
-      justify-content: flex-end;
-    }
-    
-    .aboutme {
-      display: flex;
-      justify-content: center;
-    }
-    
-    #holdmytext {
-      display: flex;
-      justify-content: center;
-    }
-    
-    p {
-      display: flex;
-      justify-content: center;
-    }
+    border: solid blue;
+  }
+  
+  body {
+    background-color: rgb(233, 220, 229);
+  }
+  
+  .list {
+    display: flex;
+    list-style-type: none;
+    align-content: space-between;
+    justify-content: flex-end;
+  }
+  
+  .aboutme {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #holdmytext {
+    display: flex;
+    justify-content: center;
+  }
+  
+  p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*reference for slider in html and css: https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/*/
+  
+  #projects{
+    display:flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 150px;
+  }
+  
+  .slider{
+    display: flex;
+    width: 300px;
+    height: 300px;
+  }

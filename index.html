@@ -2,68 +2,88 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>KVCobbs</title>
+  <title>KVCobbs</title>
 
-    <link rel = "stylesheet" type= "text/css" href = "main.css" >
-    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-      crossorigin="anonymous" defer></script>
-    <script src = "app.js" charset="utf-8" defer></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous" defer></script>
+  <script src="app.js" charset="utf-8" defer></script>
 </head>
 
-
 <body>
-<!-- Navagation -->
- <nav id = "navicons"> 
-<div class = "list"> 
-  <ul class = "list">
-    <li> "About me"</li>
-    <li> "Portfolio"</li>
-    <li> "Skills"</li>
-    <li> "Resume"</li>
-    <li> "Conact me"</li>
-   </ul>
-  </div> 
-      </nav> 
+  <!-- Navagation -->
+  <nav id="navicons">
+    <div class="list">
+      <ul class="list">
+        <li> "About me"</li>
+        <li> "Portfolio"</li>
+        <li> "Skills"</li>
+        <li> "Resume"</li>
+        <li> "Conact me"</li>
+      </ul>
+    </div>
+  </nav>
 
-<!--About me intro -->
-  <div class = "aboutme"> <h1> An Artist and a fullstack developer combined. </h1> </div>
+  <!--About me intro -->
+  <div class="aboutme">
+    <h1> An Artist and a fullstack developer combined. </h1>
+  </div>
 
+  <!-- Insert Cartoon image here -->
+  <!-- <div> </div> -->
 
-<!-- Insert Cartoon image here -->
-  <!-- <div> </div> --> 
-
-<!-- Insert Icon image here --> 
+  <!-- Insert Icon image here -->
   <!-- <div></div>-->
 
-<!-- Small about me blurb -->
-<div class = "aboutme">
-<span id = "holdmytext"> 
-<p> About me: My name is kenya I am 23 I am studying to be a full stack web developer. I have experience as a field technician. My education is etc etc etc </p> 
-  </span>
-  </div> 
-<!--Projects-->
- <div id = "projects">  <p> projects go go here </p> </div> 
+  <!-- Small about me blurb -->
+  <div class="aboutme">
+    <span id="holdmytext">
+      <p> About me: My name is kenya I am 23 I am studying to be a full stack web developer. I have experience as a field technician. My education is etc etc etc </p>
+    </span>
+  </div>
 
-<!--Skills-->
-<div id = "skills">
-  <p> Images for skills go here. </p>
-  </div> 
+  <!--Projects-->
+  <!--reference: https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/
+ -->
+  <div id="projects">
 
-<!--Contact me--> 
-  <div id = "contactme"> <p> This is where contact info is </p>
-  <div class = "email"> </div>
-  <div class = "email"> </div>
-  <div class = "email"> </div>
-  <div class = "email"> </div>
-  <div class = "email"> </div> 
- </div>
- 
+    <div class = "slider">
+
+    <div class="slide" id="project1"></div>
+    <div class="slide" id="project2"> </div>
+    <div class="slide" id="project3"></div>
+
+  </div>
+
+  </div>
+
+  <!--Skills-->
+  <div id="skills">
+    <p> Images for skills go here. </p>
+    <div id = skill1></div>
+    <div id = skill2></div>
+    <div id = skill3></div>
+    <div id = skill4></div>
+  </div>
+
+  <!--Contact me-->
+  <div id="contactme">
+    <p> This is where contact info is </p>
+    <div class="email"> </div>
+    <div class="email"> </div>
+    <div class="email"> </div>
+    <div class="email"> </div>
+    <div class="email"> </div>
+  </div>
+
 </body>
-  <footer id = "thisisbottom"> 
-    <div class = "bottom"> <p> this is after contact </p> </div> 
+<footer id="thisisbottom">
+  <div class="bottom">
+    <p> this is after contact </p>
+  </div>
 
 </footer>
+
 </html>
