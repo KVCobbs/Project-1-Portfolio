@@ -6,12 +6,26 @@ body {
   background-color: #D6A585;
 }
 
+nav{
+  border-style: none;
+}
+
+li{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  border-style: dotted;
+}
+
+
 .list {
   display: flex;
+  border-style: none;
   list-style-type: none;
   align-content: space-between;
   justify-content: flex-end;
-  justify-content: space-around;
+  border-style: none;
+/*  justify-content: space-around;*/
 }
 
 .aboutme {
@@ -69,20 +83,20 @@ p {
   padding: 15px;
 }
 
-/*
+
 #contactme{
   display: flex;
-  height: 500px;
-  width: 800px; 
+  height: 400px;
+  width: 1000px; 
 }
-*/
 
+/*
 form{
  width: 300;
  height: 300;
   justify-items: center;
 }
-/*
+
 #thisisbottom{
   display:flex;
   width: 300px;
@@ -90,11 +104,24 @@ form{
   justify-content: flex-start;
 }
 */
-.bottom{ 
+
+#bottom{ 
  display:flex;
-  width: 900px;
+  width: 1000px;
   height: 300px;
-  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.socialm {
+display: flex;
+  flex-wrap: wrap;
+  width: 50px;
+  height: 50px; 
+/*  justiy-content: space-between;*/
+  margin: auto;
+  padding: 5px;
+
 }
 
 
