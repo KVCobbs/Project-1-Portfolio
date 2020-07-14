@@ -5,8 +5,8 @@
 
 
 body {
-  color: blue;
-  background-color: #d6a585;
+  color: black;
+  background-color: #FAE8EB;
   margin: 0;
   padding: 0;
 }
@@ -16,7 +16,7 @@ nav {
   border-style: none;
   justify-content: flex-end;
   font-size: 16px;
-  background-color: white;
+  background-color: #F6CACA ;
 }
 
 .list {
@@ -33,12 +33,15 @@ li{
 }
 
 h1{
+  display:flex;
+  justify-content: center;
+  border: none;
   font-family: 'Chango' , sans-serif;
 }
 
 
 .b{
-  background-color: #6F5142;
+  background-color:#0A014F ;
   border:none;
   color:white;
   text-align:center;
@@ -46,7 +49,7 @@ h1{
   font-family: 'Chango' , sans-serif;
 }
 
-.aboutme {
+.aboutme2 {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -55,6 +58,8 @@ h1{
 #holdmytext {
   display: flex;
   justify-content: center;
+ font-family: 'Chango' , sans-serif;
+  
 }
 
 p {
@@ -113,21 +118,16 @@ scroll-snap-type: x mandatory;
 
 #contactme {
   display: flex;
-  height: 400px;
-  width: 950px;
-}
-
-
-form {
- width: 500;
- height: 500;
-  justify-items: center;
+  flex-wrap: wrap;
+  flex-direction:column; 
+  
+  
 }
 
 
 #bottom {
   display: flex;
-  width: 1000px;
+  width: 899px;
   height: 300px;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -142,6 +142,135 @@ form {
   margin: auto;
   padding: 5px;
 }
+
+
+
+
+
+
+
+/*
+hamburger menu
+
+#menuToggle {
+display:block;
+position: relative;
+top: 50px
+left: 50px;
+z-index: 1;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+  user-select: none;
+}
+
+
+#menuToggle a {
+text-decoration: none;
+color: white;
+-webkit-transition: color 0.3s ease;
+-o-transition: color 0.3s ease;
+transition:color 0.3s ease;
+}
+
+#menuToggle a:hover{
+  color:white;
+}
+
+-hamburger button hidden inside an input element-
+#menuToggle input {
+  display:block;
+  width:30px;
+height:30px;
+position:absolute;
+top: -7px;
+left: -5px;
+padding:0;
+cursor:pointer;
+opacitiy: 0; //hide this
+z-index:2; /place it over the hamburger.
+-webkit-touch-callout:none;
+}
+
+#menuToggle label {
+position: relative;
+display:block;
+width: 30px;
+height: 30px;
+}
+
+#menuToggle label span {
+display:none;
+}
+
+-Hamburger
+
+#menuToggle label div {
+display:block;
+width: 30px;
+height: 2px;
+margin-bottom:6px;
+position: relative;
+background: white;
+border-radius: 3px;
+z-index: 1;
+-webkit-transform-orgin: 4px 0px;
+-ms-transform-origin: 4px 0px;
+transform-origin: 4px 0px;
+-webkit-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+transition:all 0.3s ease;
+}
+
+#menuToggle label div:first-child{
+  -webkit-transform-origin: 0% 100%;
+  -ms- transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+}
+
+#menuToggle label div:nth-child(2) {
+-webkit-transform-origin: 0% 100%;
+  -ms- transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+}
+
+
+-transform all the slice of hamburger into X when the input is checked
+#menuToggle input:checked + label div {
+  background: white;
+}
+
+-use absolute positioning to place the menu off screen
+#menu{
+postition: absolute;
+width:300px;
+margin: -100px 0 0 -50px;
+padding:50px;
+padding-top: 125px;
+background: white;
+list-style-type:none;
+
+-hide the menu off screen to the left
+
+left: -100%
+-webkit-transition:left 0.3s ease;
+-o-transition: left 0.3s ease;
+transition: left 0.3s ease;
+
+}
+
+#menu li {
+padding:10px 0;
+font-size: 22px;
+}
+
+-slide the menu in from left when the input is checked
+
+#menuToggle input:checked ~ul {
+left:0;
+}
+*/
+
 
 /*
 
