@@ -1,109 +1,131 @@
 * {
-    border: solid blue;
-  }
+  border: solid red;
+}
+
+body {
+  background-color: #D6A585;
+}
+
+.list {
+  display: flex;
+  list-style-type: none;
+  align-content: space-between;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+}
+
+#holdmytext {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+}
+
+/*reference for slider in html and css: https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/*/
+
+#projects{
+  display:flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 150px;
+}
+
+.slider{
+  display: flex;
+  width: 500px;
+  height: 500px;
+  overflow-x: auto;
+}
+
+.slide{
+  width: 500px;
+  flex-shrink: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.skills1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.skills{
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 150px; 
+/*  justiy-content: space-between;*/
+  margin: auto;
+  padding: 15px;
+}
+
+/*
+#contactme{
+  display: flex;
+  height: 500px;
+  width: 800px; 
+}
+*/
+
+form{
+ width: 300;
+ height: 300;
+  justify-items: center;
+}
+/*
+#thisisbottom{
+  display:flex;
+  width: 300px;
+  height:300px;
+  justify-content: flex-start;
+}
+*/
+.bottom{ 
+ display:flex;
+  width: 900px;
+  height: 300px;
   
-  body {
-    background-color: rgb(233, 220, 229);
-  }
-  
-  .list {
-    display: flex;
-    list-style-type: none;
-    align-content: space-between;
-    justify-content: flex-end;
-    justify-content: space-around;
-  }
-  
-  .aboutme {
-    display: flex;
-    justify-content: center;
-  }
-  
-  #holdmytext {
-    display: flex;
-    justify-content: center;
-  }
-  
-  p {
-    display: flex;
-    justify-content: center;
-  }
-  
-  /*reference for slider in html and css: https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/*/
-  
-  #projects{
-    display:flex;
-    justify-content: space-around;
-    margin: 0;
-    padding: 150px;
-  }
-  
-  .slider{
-    display: flex;
-    width: 500px;
-    height: 500px;
-    overflow-x: auto;
-  }
-  
-  .slide{
-    width: 500px;
-    flex-shrink: 0;
-    height: 100%;
-    scroll-behavior: smooth;
-  }
-  
-  .skills1{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 250px;
-  }
-  
-  .skills{
-    display: flex;
-    flex-wrap: wrap;
-    width: 150px;
-    height: 150px; 
-  /*  justiy-content: space-between;*/
-    margin: auto;
-    padding: 15px;
-  }
-  
-  #contactme{
-    display: flex;
-    height: 500px;
-    width: 500px;
-    
-  }
-  
-  /* just in case I need them again in the future. 
-  .email{
-    width:300px;
-    height: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0auto;
-    background-color: white;
-  }
-  
-  #emailm{
-    display: flex;
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    margin: 0;
-  }
-  
-  #emailb {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content:center;
-  }
-  
-  
-  #thisisbottom{
-    display:flex;
-    width: 300px;
-    height:300px;
-  }
-  */
+}
+
+
+/* just in case I need them again in the future. 
+.email{
+  width:300px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0auto;
+  background-color: white;
+}
+
+#emailm{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  margin: 0;
+}
+
+#emailb {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+
+#thisisbottom{
+  display:flex;
+  width: 300px;
+  height:300px;
+}
+*/
