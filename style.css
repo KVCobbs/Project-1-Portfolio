@@ -1,72 +1,67 @@
-
 * {
-  border: solid blue;
+  border: solid red;
 }
-
 
 body {
   color: black;
-  background-color: #FAE8EB;
+  background-color:blue;
   margin: 0;
   padding: 0;
 }
 
 nav {
-  display: flex; 
+  display: flex;
   border-style: none;
   justify-content: flex-end;
   font-size: 16px;
-  background-color: #F6CACA ;
-   position: fixed;
-  top:0;
+  position: fixed;
+  top: 0;
   z-index: 1;
   width: 100%;
-  
 }
 
 .list {
   display: flex;
   border-style: none;
   list-style-type: none;
-   justify-content: space-around;
 }
 
-li{
+li {
   font-size: 20px;
-  background-color:white;
+  background-color: white;
   border-style: none;
-  background-color:#0A014F ;
-  border:none;
-  color:white;
-  text-align:center;
-  font-size:15px;
-  font-family: 'Chango' , sans-serif;
+  background-color: #0a014f;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: "Chango", sans-serif;
 }
 
-h1{
-  display:flex;
+h1 {
+  display: flex;
   justify-content: center;
   border: none;
-  font-family: 'Chango' , sans-serif;
+  font-family: "Chango", sans-serif;
 }
 
-#aboutme2 {
+#aboutme {
   display: flex;
   text-align: center;
   justify-content: center;
+  font-family: "Chango", sans-serif;
 }
 
 #holdmytext {
   display: flex;
   justify-content: center;
- font-family: 'Chango' , sans-serif;
-  
+  font-family: "Chango", sans-serif;
 }
 
 p {
   display: flex;
   justify-content: center;
-  font-family: 'Chango' , sans-serif;
+  font-family: "Chango", sans-serif;
 }
 
 /*reference for slider in html and css: https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/*/
@@ -83,9 +78,9 @@ p {
   width: 500px;
   height: 500px;
   overflow-x: auto;
-/* for the web 
+  /* for the web 
 -webkit-overflow-scrolling: touch;*/
-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
 }
 
 .slide {
@@ -97,7 +92,6 @@ scroll-snap-type: x mandatory;
 
 .slide > div {
   scroll-snap-align: snap;
-
 }
 
 #skills1 {
@@ -120,35 +114,48 @@ scroll-snap-type: x mandatory;
 #contactme {
   display: flex;
   flex-wrap: wrap;
-  flex-direction:column; 
-  
-  
+  flex-direction: column;
 }
-
 
 #bottom {
   display: flex;
-  width: 899px;
+  width: 100%;
   height: 300px;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style-type: none; 
 }
 
-/*
-.socialm {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50px;
-  height: 50px;
-  /*  justiy-content: space-between;
-  margin: auto;
-  padding: 5px;
+#il{
+  width: 800px;
 }
-*/
 
+.media{
+  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  tranform: translate(-53%, -50%);
+   
+}
 
+.sm{
+  display: inline-block;
+  list-style-type: none;
+    margin: 10px 30px;
+  font-size: 80px;
+  paddding: 10px 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20%
+  
+}
 
-
+.sm:hover {
+  color: black;
+  border: 1px solid black;
+  transition: .5s;
+} 
 
 /*
 hamburger menu
@@ -271,7 +278,6 @@ font-size: 22px;
 left:0;
 }
 */
-
 
 /*
 
