@@ -1,3 +1,4 @@
+
 * {
   border: solid blue;
 }
@@ -16,7 +17,7 @@ nav {
   justify-content: flex-end;
   font-size: 16px;
   background-color: #F6CACA ;
- position: fixed;
+   position: fixed;
   top:0;
   z-index: 1;
   width: 100%;
@@ -34,22 +35,18 @@ li{
   font-size: 20px;
   background-color:white;
   border-style: none;
+  background-color:#0A014F ;
+  border:none;
+  color:white;
+  text-align:center;
+  font-size:15px;
+  font-family: 'Chango' , sans-serif;
 }
 
 h1{
   display:flex;
   justify-content: center;
   border: none;
-  font-family: 'Chango' , sans-serif;
-}
-
-
-.b{
-  background-color:#0A014F ;
-  border:none;
-  color:white;
-  text-align:center;
-  font-size:15px;
   font-family: 'Chango' , sans-serif;
 }
 
@@ -137,17 +134,17 @@ scroll-snap-type: x mandatory;
   justify-content: space-between;
 }
 
+/*
 .socialm {
   display: flex;
   flex-wrap: wrap;
   width: 50px;
   height: 50px;
-  /*  justiy-content: space-between;*/
+  /*  justiy-content: space-between;
   margin: auto;
   padding: 5px;
 }
-
-
+*/
 
 
 
