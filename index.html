@@ -22,14 +22,15 @@
   <!-- Navagation -->
   <nav>
     <ul class="list">
-      <li> <button class = "b" type = "button" onclick =  >About me</button> </li>
-      <li> <button class ="b" type = "button" onclick =  >Portfolio</button></li>
-      <li><button class = "b" type = "button" onclick = >Skills</button></li>
-      <li><button class = "b" type = "button" onclick = >Resume</button> </li>
-      <li> <button class = "b" type = "button" onclick = >Contact me</button></li>
+      <li> <a href = "#info">About me</a>   </li>
+      <li> <a href="#projects">Portfolio</a></li>
+      <li> <a href ="#skills1">Skills</a></li>
+      <li><a href = "#resume">Resume</a></li>
+      <li><a href = "#contactme">Contact Me</a></li>
     </ul>
   </nav>
 
+  <a href = "#projects"> projects </a>
 
 <!-- used https://css-tricks.com/three-css-alternatives-to-javascript-navigation/ as reference. 
 
@@ -61,7 +62,7 @@
 
 
   <!--About me intro -->
-  <div class="aboutme1">
+  <div id ="intro">
     <h1> Artist. Full Stack Developer. Friend. </h1>
   </div>
 
@@ -72,7 +73,7 @@
   <!-- <div></div>-->
 
   <!-- Small about me blurb -->
-  <div class="aboutme2">
+  <div id ="aboutme2">
     <span id="holdmytext">
       <p> About me: My name is kenya I am 23 I am studying to be a full stack web developer. I have experience as a field technician. My education is etc etc etc </p>
     </span>
@@ -95,22 +96,30 @@
   </div>
 
   <!--Skills-->
-  <div class="skills1">
+  <div id="skills1">
     <div class="skills"></div>
     <div class="skills"></div>
     <div class="skills"></div>
     <div class="skills"></div>
   </div>
 
+  <div id = #resume >
+    <a href = "Profile.pdf" > </a>
+  </div>
+
   <!--Contact me-->
   <div id="contactme">
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdtUwUUMbgeU763Li9T_7Hxj_aZnmXzFzslIbuZnsKZu9i0bw/formResponse" method ="post" id="mG61Hd">
       <label for="name">Name:</label>
-      <input type="text" id="fname" name="fname">
+
+      <input type="text" name="entry.1094064619" id="name">
+
       <label for="email">Email:</label>
-      <input type="text" id="email" name="email">
+      <input type="text" name="entry.1107095658" id="email">
       <label for="message">Message:<label>
-          <input type="text" id="message" name="message">
+          <input type="text" id="message" name="entry.1535029043">
           <input type="submit" value="Submit">
+        </form>
 </div>
 
 </body>

@@ -1,4 +1,3 @@
-
 * {
   border: solid blue;
 }
@@ -17,6 +16,11 @@ nav {
   justify-content: flex-end;
   font-size: 16px;
   background-color: #F6CACA ;
+ position: fixed;
+  top:0;
+  z-index: 1;
+  width: 100%;
+  
 }
 
 .list {
@@ -49,7 +53,7 @@ h1{
   font-family: 'Chango' , sans-serif;
 }
 
-.aboutme2 {
+#aboutme2 {
   display: flex;
   text-align: center;
   justify-content: center;
@@ -99,7 +103,7 @@ scroll-snap-type: x mandatory;
 
 }
 
-.skills1 {
+#skills1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
