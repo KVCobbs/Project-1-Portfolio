@@ -1,3 +1,4 @@
+/*
 const formURL ="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdtUwUUMbgeU763Li9T_7Hxj_aZnmXzFzslIbuZnsKZu9i0bw/formResponse";
 
 const formSubmit = () => {
@@ -32,3 +33,38 @@ body: `${nameTag}=${name.val()}&${emailTag}=${email.val()}&${messageTag}=${messa
 
 $('button').on('click', () => formSubmit());
 }
+*/
+
+const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-cRbvh8KYimTwGEYPDoY/od6/public/values?alt=json`
+  fetch(URL)  // starts the fetch process
+    .then( response => response.json() )    // returns the JSON data as a JS object
+    .then( data => {
+      console.log(data.feed);
+      // creates an array of parsed project objects
+      const projects = data.feed.entry.map( entry => {
+        return {
+           title: entry.gsx$title.$t,
+           image: entry.gsx$image.$t,
+           description: entry.gsx$description.$t,
+           url: entry.gsx$url.$t
+        }
+      })
+      console.log(projects);
+      app(projects);
+    })
+
+    const app = (projects) => {
+      console.log(`app`,projects)
+        for(let i = 0; i < projects.length; i++){
+          projects[i].title
+          /*
+         $(`#project1`).append($('<h1>').text(projects[i].title))
+         $(`#project2`).append($(`<div>`).text(projects[i].title))
+         $('#project'+ (i+1)).append($(`<div>`).text(projects[i].title))
+         */
+          const $div = $('<div>').attr('id','#project'+ (i+1)).addClass('slide')
+          $div.append($('<h1>').text(projects[i].title))
+          $('.slider').append($div)
+
+        }
+    }
