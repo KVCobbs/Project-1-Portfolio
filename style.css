@@ -4,7 +4,7 @@
 
 body {
   color: black;
-  background-color:white;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -22,15 +22,14 @@ nav {
   scroll-behavior: smooth;
 }
 
-a{
- text-decoration: none; 
+a {
+  text-decoration: none;
   color: black;
 }
 
-a: active {
+a active {
   text-decoration: none;
 }
-
 
 .list {
   display: flex;
@@ -52,15 +51,14 @@ li {
 }
 
 #intro {
-  display:flex;
+  display: flex;
 }
-
 
 h1 {
   display: flex;
   justify-content: center;
   border: none;
-   padding: 10px;
+  padding: 10px;
   font-family: "Chango", sans-serif;
 }
 
@@ -113,12 +111,11 @@ p {
   scroll-snap-align: snap;
 }
 
-#skills{
-  display:flex;
+#skills {
+  display: flex;
   justify-content: center;
-  
 }
-.icon{
+.icon {
   display: flex;
   width: 150px;
   height: 150px;
@@ -126,66 +123,114 @@ p {
   padding: 15px;
 }
 
-
 #contactme {
   display: flex;
   justify-content: center;
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  height: 700px;
+  border: solid green;
 }
 
+form{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  height: 700;
+  width: 100%;
+  border: solid red;
+}
 
-div{
+.l{
   display:block;
+  width: 300px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.in{
+    display:block;
+  width: 300px;
+  padding: 10px;
+}
+
+.inm{
+  display:block;
+  width:300px;
+  height: 300px;
+  padding: 10px;
+}
+
+div {
+  display: block;
 }
 
 #bottom {
   display: flex;
   width: 100%;
-  height: 300px;
+  height: 100px;
   flex-wrap: wrap;
   justify-content: space-between;
-  list-style-type: none; 
+  list-style-type: none;
 }
 
-#il{
+#il {
   display: block;
   width: 800px;
-  
 }
 
-.media{
-  
+.media {
   position: absolute;
   top: 40%;
   left: 50%;
-  tranform: translate(-53%, -50%);
-   
+  transform: translate(-53%, -50%);
 }
 
-footer{
-  background-color: brown; 
+footer {
+  background-color: brown;
 }
 
-
-
-.sm{
+.sm {
   display: inline-block;
   list-style-type: none;
-    margin: 10px 30px;
-  font-size: 80px;
-  paddding: 10px 10px;
+  margin: 10px 30px;
+  font-size: 35px;
+  padding: 10px 10px;
   color: brown;
   border: 1px solid black;
   border-radius: 5%;
-  
 }
 
 .sm:hover {
   color: black;
   border: 1px solid black;
-  transition: .5s;
-} 
+  transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+  * {
+    display:flex;
+    width: 100%;
+  }
+  #skills {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    width:100%;
+  }
+  .icon{
+    display: flex;
+    flex-direction:column;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    padding: 15px;
+  }
+}
+  
+
+
+
 
 /*
 hamburger menu
@@ -307,14 +352,11 @@ font-size: 22px;
 #menuToggle input:checked ~ul {
 left:0;
 }
-*/
 
-/*
-
-#thisisbottom{
-  display:flex;
+#thisisbottom {
+  display: flex;
   width: 300px;
-  height:300px;
+  height: 300px;
   justify-content: flex-start;
 }
 
@@ -348,4 +390,3 @@ left:0;
   height:300px;
 }
 */
-
