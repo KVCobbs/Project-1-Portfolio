@@ -87,7 +87,7 @@ p {
   display: flex;
   justify-content: space-around;
   margin: 0;
-  padding: 150px;
+  padding: 20px 0px 20px 0px;
   width:100%;
 }
 
@@ -141,26 +141,26 @@ form{
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  height: 700;
+  height: 100%;
   width: 100%;
   border: solid red;
 }
 
 .l{
-  display:block;
-  width: 300px;
-  font-size: 30px;
-  padding: 10px;
+  display:flex;
+  width: 100%;
+  font-size: 50px;
+  padding: 50px;
 }
 
 .in{
-    display:block;
-  width: 300px;
+    display:flex;
+  width: 500px;
   padding: 10px;
 }
 
 .inm{
-  display:block;
+  display:flex;
   width:300px;
   height: 300px;
   padding: 10px;

@@ -66,7 +66,12 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
           const $div = $('<div>').attr('id','#project'+ (i+1)).addClass('slide')
 
           $div.append($('<h1>').text(projects[i].title))
-          $div.append($('<img>').attr('src', projects[i].image).addClass('cn'))
+          const $link = $('<a>').attr('href',projects[i].url)
+            $link.append($('<img>').attr('src', projects[i].image).addClass('cn'))
+            $div.append($link)
+          
+          
+
           $('.slider').append($div)
         }
     }
