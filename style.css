@@ -88,20 +88,25 @@ p {
   justify-content: space-around;
   margin: 0;
   padding: 150px;
+  width:100%;
 }
 
 .slider {
   display: flex;
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 600px;
   overflow-x: auto;
   /* for the web 
 -webkit-overflow-scrolling: touch;*/
   scroll-snap-type: x mandatory;
 }
 
+.cn{
+  width:500px;
+}
+
 .slide {
-  width: 500px;
+  width:500px;
   flex-shrink: 0;
   height: 100%;
   scroll-behavior: smooth;

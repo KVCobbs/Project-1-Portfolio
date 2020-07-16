@@ -55,6 +55,7 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
 
     const app = (projects) => {
       console.log(`app`,projects)
+
         for(let i = 0; i < projects.length; i++){
           projects[i].title
           /*
@@ -63,8 +64,9 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
          $('#project'+ (i+1)).append($(`<div>`).text(projects[i].title))
          */
           const $div = $('<div>').attr('id','#project'+ (i+1)).addClass('slide')
-          $div.append($('<h1>').text(projects[i].title))
-          $('.slider').append($div)
 
+          $div.append($('<h1>').text(projects[i].title))
+          $div.append($('<img>').attr('src', projects[i].image).addClass('cn'))
+          $('.slider').append($div)
         }
     }
