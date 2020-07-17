@@ -16,69 +16,56 @@
   </style>
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
-  <!-- Navagation -->
-  <nav>
-    <ul class="list">
-      <li> <a href="#info">About me</a> </li>
-      <li> <a href="#projects">Portfolio</a></li>
-      <li> <a href="#skills">Skills</a></li>
-      <li><a href="#resume">Resume</a></li>
-      <li><a href="#contactme">Contact Me</a></li>
-    </ul>
+<header> 
+  <div class = "burger">
+  <div class = "content"></div>
+  <div class = "content"></div>
+  <div class = "content"></div>
+</div>
+</header>
+
+<nav class = "burger-content">
+
+  <a href = "#info"><li>About Me</li></a>
+  <a href = "#projects"><li>Portfolio</li></a>
+  <a href = "#skills"><li>Skills</li></a>
+  <a href = "#contactme"><li>Contact Me</li></a>
+
   </nav>
 
-  <!-- used https://css-tricks.com/three-css-alternatives-to-javascript-navigation/ as reference. 
-
-<nav role = "navigation">
-<div id = "menuToggle">
-
-<input name = "toggle" type = "checkbox" />
-<label for "toggle">
-<span>menu</span>
-
--Divs to be styled as a hamburger button
-<div></div>
-<div></div>
-<div></div>
-</ label>
-
--menu that will slide in from the left-
-<ul id = "menu">
-<a href = "#"<li>Aboutme</li></a>
-<a href = "#"
-<a href =
-<a href =
-<a href = 
-</ul>
-</div>
-</nav>
--->
 
   <!--About me intro -->
   <div id="intro">
-    <h1> Artist. Full Stack Developer. Friend. </h1>
+    <h1 class = "j"> Artist.
+       Aspiring Developer. Friend. </h1>
+    <!-- Insert Cartoon image here -->
+   <div class = 'emoji'> 
+    <img src = "https://sdk.bitmoji.com/render/panel/a41da708-81e9-4ec3-9364-9d8748f7063d-5d21933d-3580-4b57-95df-063b1ec32098-v1.png?transparent=1&palette=1"
+      width = "450" height = "450" >
+   </div>
+
   </div>
-
-  <!-- Insert Cartoon image here -->
-  <!-- <div> </div> -->
-
+  
   <!-- Insert Icon image here -->
   <!-- <div></div>-->
 
   <!-- Small about me blurb -->
+  <h1 class = "a"> About me </h1>
+
   <div id="aboutme">
-    <p> Hi. I'm Kenya. I am currently a student studying software development! I am also a part time artist. </p>
-    </span>
+
+    <p class = "ab"> Hi! My name is Kenya. I am currently a software development student! I am also a part time artist and a full time friend. </p>
+
   </div>
 
   <!--Projects-->
   <!--reference: https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/
  -->
 
+ <h1 class = "p"> Projects </h1>
   <div id="projects">
 
     <div class="slider">
@@ -96,7 +83,9 @@
   </div>
 
   <!--Skills-->
+  <h1 class = "s"> Skills </h1>
   <div id = "skills">  
+    
 <img class = "icon" src = "https://image.flaticon.com/icons/svg/25/25231.svg" 
 width = "150" height = "150">
    
@@ -108,28 +97,25 @@ width = "150" height = "150">
 <img class = "icon" src = "https://cdn.iconscout.com/icon/free/png-512/javascript-2038874-1720087.png" width ="150" height = "150">
   </div>
 
-
-  <div id=#resume>
-    <a href="Profile.pdf"> </a>
-  </div>
-
   <!--Contact me-->
+  <h1 class = "c" >Contact</h1>
   <div id="contactme">
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdtUwUUMbgeU763Li9T_7Hxj_aZnmXzFzslIbuZnsKZu9i0bw/formResponse" method="post" id="mG61Hd">
-      <div>     <label for="name">Name:</label> </div>
 
-      <div>    <input type="text" name="entry.1094064619" id="name"> </div>
+      <div class = "l1">     <label for="name">Name:</label> </div>
 
-      <div>   <label for="email">Email:</label> </div>
+      <div class = "in1">    <input type="text" name="entry.1094064619" id="name" size = "30"> </div>
 
-      <div>    <input type="text" name="entry.1107095658" id="email"> </div>
+      <div class = "l2">   <label for="email">Email:</label> </div>
+
+      <div class = "in2">    <input type="text" name="entry.1107095658" id="email" size = "40"> </div>
 
 
-      <div>     <label for="message">Message:<label> </div>
+      <div class = "l3">     <label for="message">Message:<label> </div>
 
-        <div>     <input type="text" id="message" name="entry.1535029043"> </div>
+        <div class = "in3">     <input type="text" id="message" name="entry.1535029043" size = "45"> </div>
 
-        <div>      <input type="submit" value="Submit"> </div>
+        <div class = "in4">      <input type="submit" id="submit" value="Submit" size = "70"> </div>
 
     </form>
   </div>

@@ -70,8 +70,14 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
             $link.append($('<img>').attr('src', projects[i].image).addClass('cn'))
             $div.append($link)
           
-          
-
           $('.slider').append($div)
         }
     }
+    
+    //hamburger menu
+    $(document).ready(function(){
+      $('.burger').on('click',
+      function () {
+        $('nav').toggle(500)
+      });
+    });
