@@ -45,6 +45,7 @@ form{
 
 
 Issues:
+
 The biggest issue I had was my hamburger menu. I originally wanted to make it without Javascript at all. But I couldn't get it to work. 
 
 My adding my contact page from google forms into my form. 
@@ -53,6 +54,12 @@ Resolutions: I found an article explaining hamburger menu with how to make it wo
  
 I solved my issue about my contact page but using control f to find the entry. info I needed on the page below instead of using the method shown to me using the video jendri linked. 
 
+References used:
+ https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css
+
+https://youtu.be/0ZobsvqYA94
+
+https://wpbuffs.com/responsive-media-queries/
 
 
 
