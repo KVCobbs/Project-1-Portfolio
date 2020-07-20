@@ -55,6 +55,8 @@ Resolutions: I found an article explaining hamburger menu with how to make it wo
 I solved my issue about my contact page but using control f to find the entry. info I needed on the page below instead of using the method shown to me using the video jendri linked. 
 
 References used:
+
+
  https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css
 
 https://youtu.be/0ZobsvqYA94
