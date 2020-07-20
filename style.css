@@ -284,7 +284,7 @@ form{
   grid-column: three/five;
   grid-row: f/f;
   border:solid #1D1128;
-  color:#E5D4ED;
+  color:black;
   padding: 10px 0px 20px 0px;
   width: 100%;
   height: 100px;
@@ -693,7 +693,7 @@ footer {
     
     display:block;
     border:solid #1D1128;
-    color:#E5D4ED;
+    color: black;
     width: 200%;
     height: 100px;
   }
