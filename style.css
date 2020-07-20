@@ -695,7 +695,7 @@ footer {
     border:solid #1D1128;
     color:#E5D4ED;
     width: 200%;
-    height: 50px;
+    height: 100px;
   }
   
   .in4 {
@@ -710,10 +710,9 @@ footer {
     height: 50px;
     background-color:white;
     color:#1D1128;
-    border-radius: 50px;
+    border-radius: 25px;
     font-size: 20px;
-    width:100%;
-    width:70px;
+    width:100px;
   }
   
   
@@ -724,22 +723,22 @@ footer {
     margin: 0;
   }
   
+  
   #bottom {
-    position: relative;
     width: 100%;
     justify-content: space-between;
     list-style-type: none;
     padding: 0px;
     border-radius: 25px;
     padding: 20px 0px 30px 0px;
+    
   }
   
   
   #il {
-    /*
+    
     display: block;
-    */
-    width: 100%;
+    
     padding: 10px;
   }
 
@@ -750,17 +749,18 @@ footer {
     left: 50%;
     transform: translate(-53%, -50%);
   }
-  
+
   
   footer {
-    position:relative;
-    background-color:#514F59 ;
-    z-index:1;
+    position:relative;;
+    background-color:#514F59;
+    width: 550px;
+    
   }
-  
+
   
   .sm {
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     margin: 10px 30px;
     font-size: 35px;
@@ -776,4 +776,5 @@ footer {
   }
   
 }
+
   
