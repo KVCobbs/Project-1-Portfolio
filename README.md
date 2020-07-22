@@ -7,6 +7,38 @@ In the google document created by me shows the work matrix and my own personal M
 [KVCOBBS PROJECT](Project%20Worksheet.docx)
 
 
+| Time Matrix/Priority Matrix          |
+|--------------------------------------|
+|                                      |
+|                                      |
+| Urgent                               |
+| Not Urgent                           |
+| Important                            |
+|  Quadrant 1                          |
+|                                      |
+| Hamburger menu                       |
+| Scrolling functionality              |
+| Link to projects(codepen)            |
+| HTML structure and CSS structure     |
+| Quadrant 2                           |
+|                                      |
+| Navigation Icons                     |
+| Social media Icons at footer         |
+| Contact me                           |
+| Not                                  |
+| Important                            |
+|  Quadrant 3                          |
+|                                      |
+| Carousel rotation on desktop version |
+| Making original icons (png.jpgs)     |
+|                                      |
+|                                      |
+|                                      |
+|  Quadrant 4                          |
+|                                      |
+| Social Media Icons                   |
+| Original logo                        |
+
 
 
 
@@ -27,6 +59,8 @@ Functionality
 | Working with API         | High | 4 hours  | 2 hours             | 2 hours              |
 | Responsive               | High | 6 hours  | 3 hours on saturday | 3 hours              |
 | Total                    |      | 29 hours | 34 hours            | 36 hours             |
+
+
 
 
 
