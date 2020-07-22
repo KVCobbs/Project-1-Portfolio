@@ -13,12 +13,21 @@ In the google document created by me shows the work matrix and my own personal M
 
 
 
+Functionality
 
+  MVP            |          |                |               |             |
+|---------------------|----------|----------------|---------------|-------------|
+| Component           | Priority | Estimated time | Time invested | Actual time |
+| HTML/CSS                  | High     | 3 hours        | 0 hours       | 0 hours     |
+| Hamburger menu on mobile | High | 6 hours  | 1 hour tuesday      | 3 hours              |
 
-
-
-
-
+| Project Previews         | High | 3 hours  | 4 hours             | 3 hours              |
+| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
+| Scrolling functionality  | Mid  | 3 hours  | 2 hours on tuesday  | 3 hours on wednesday |
+| Links to projects        | High | 2 hours  | 6 hours on thursday | 6 hours              |
+| Working with API         | High | 4 hours  | 2 hours             | 2 hours              |
+| Responsive               | High | 6 hours  | 3 hours on saturday | 3 hours              |
+| Total                    |      | 29 hours | 34 hours            | 36 hours             |
 
 
 
