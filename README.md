@@ -6,6 +6,40 @@ This project is the creation of my website which will showcase the projects and 
 In the google document created by me shows the work matrix and my own personal MVPs and Post MVPs of the project 
 [KVCOBBS PROJECT](Project%20Worksheet.docx)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Post MVP            |          |                |               |             |
+|---------------------|----------|----------------|---------------|-------------|
+| Component           | Priority | Estimated time | Time invested | Actual time |
+| Icon letters wiggle | Mid      | 3 hours        | 0 hours       | 0 hours     |
+| Carousel            | Mid      | 6 hours        | 2 hours       | 8 hours     |
+| Making own icon     | Mid      | 2 hours        | 0 hours       | 0 hours     |
+| Social Media Icons  | low      | 2 hours        | 3 hours       | 3 hours     |
+| Original logo       | low      | 3              | 0 hours       | 0 hours     |
+| Total               |          | 16 hours       | 5 hours       | 11 hours    |
+
+
+
 Libraries used :[Font Awesome](https://fontawesome.com/v4.7.0/)
 
 Code I was proud of: 
