@@ -39,7 +39,7 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
   fetch(URL)  // starts the fetch process
     .then( response => response.json() )    // returns the JSON data as a JS object
     .then( data => {
-      console.log(data.feed);
+      //console.log(data.feed);
       // creates an array of parsed project objects
       const projects = data.feed.entry.map( entry => {
         return {
@@ -49,12 +49,12 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
            url: entry.gsx$url.$t
         }
       })
-      console.log(projects);
-      app(projects);
+      //console.log(projects);
+      app(projects)
     })
 
     const app = (projects) => {
-      console.log(`app`,projects)
+      //console.log(`app`,projects)
 
         for(let i = 0; i < projects.length; i++){
           projects[i].title
@@ -66,7 +66,7 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
           const $div = $('<div>').attr('id','#project'+ (i+1)).addClass('slide')
 
           $div.append($('<h1>').text(projects[i].title))
-       const $link = $('<a>').on('click', () => manualDis(i))
+          const $link = $('<a>').on('click', () => manualDis(i))
             $link.append($('<img>').attr('src', projects[i].image).addClass('cn'))
             $div.append($link)
             
@@ -82,10 +82,6 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
               $('.descriptions').append($des, $url)
               console.log(x, projects[x])
             }
-          
-         // const $link = $('<a>').attr('href',projects[i].url)
-         //   $link.append($('<img>').attr('src', projects[i].image).addClass('cn'))
-          //  $div.append($link)
           
           $('.slider').append($div)
         }
