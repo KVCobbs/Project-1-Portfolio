@@ -1,10 +1,10 @@
  # Project Description
 This project is the creation of my website which will showcase the projects and skills that I have learned throughout my coding journey. 
 
-[Deployed Website](kvcobbs.netlify.app)
+https://kvcobbs.netlify.app/
 
 In the google document created by me shows the work matrix and my own personal MVPs and Post MVPs of the project 
-[KVCOBBS PROJECT](Project%20Worksheet.docx)
+https://docs.google.com/document/d/1XoOx7oe75qtft3XO8c9jswxPZ2pv8hwiopUUi_TOsPU/edit?usp=sharing
 
 
 | Time Matrix/Priority Matrix          |
@@ -39,6 +39,16 @@ In the google document created by me shows the work matrix and my own personal M
 | Social Media Icons                   |
 | Original logo                        |
 
+
+
+
+  MVP            |          |                |               |             |
+|---------------------|----------|----------------|---------------|-------------|
+| Component           | Priority | Estimated time | Time invested | Actual time |
+| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
+| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
+| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
+| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
 
 
 
