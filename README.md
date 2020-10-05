@@ -3,44 +3,9 @@ This project is the creation of my website which will showcase the projects and 
 
 https://kvcobbs.netlify.app/
 
-In the google document created by me shows the work matrix and my own personal MVPs and Post MVPs of the project 
-https://docs.google.com/document/d/1XoOx7oe75qtft3XO8c9jswxPZ2pv8hwiopUUi_TOsPU/edit?usp=sharing
 
-
-| Time Matrix/Priority Matrix          |
-|--------------------------------------|
-|                                      |
-|                                      |
-| Urgent                               |
-| Not Urgent                           |
-| Important                            |
-|  Quadrant 1                          |
-|                                      |
-| Hamburger menu                       |
-| Scrolling functionality              |
-| Link to projects(codepen)            |
-| HTML structure and CSS structure     |
-| Quadrant 2                           |
-|                                      |
-| Navigation Icons                     |
-| Social media Icons at footer         |
-| Contact me                           |
-| Not                                  |
-| Important                            |
-|  Quadrant 3                          |
-|                                      |
-| Carousel rotation on desktop version |
-| Making original icons (png.jpgs)     |
-|                                      |
-|                                      |
-|                                      |
-|  Quadrant 4                          |
-|                                      |
-| Social Media Icons                   |
-| Original logo                        |
-
-
-
+Planning Documents
+Time matrix, wireframes and inspiration are in the project worksheet docx: https://docs.google.com/document/d/1XoOx7oe75qtft3XO8c9jswxPZ2pv8hwiopUUi_TOsPU/edit?usp=sharing
 
 
 
@@ -78,7 +43,7 @@ Functionality
 
 Libraries used :[Font Awesome](https://fontawesome.com/v4.7.0/)
 
-Code I was proud of: 
+Code im proud of
 
 form{
   display:grid;
@@ -114,7 +79,7 @@ form{
 }
 
 
-Issues:
+Issues and Resolutions
 
 The biggest issue I had was my hamburger menu. I originally wanted to make it without Javascript at all. But I couldn't get it to work. 
 
