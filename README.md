@@ -48,17 +48,13 @@ Functionality
     [Jquery](https://code.jquery.com/jquery-3.5.1.min.js)
 
 ## Code im proud of
-    ```javascript
-
- //hamburger menu
-    $(document).ready(function(){
-      $('.burger').on('click',
-      function () {
-        $('nav').toggle(500)
-      });
-    });
- 
-    ```
+   //hamburger menu
+    $(document).ready(function(){
+      $('.burger').on('click',
+      function () {
+        $('nav').toggle(500)
+      });
+    });
 
 ## Issues and Resolutions:
 
