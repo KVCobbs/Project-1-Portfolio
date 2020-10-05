@@ -47,7 +47,8 @@ Functionality
     [Font Awesome](https://fontawesome.com/v4.7.0/)
     [Jquery](https://code.jquery.com/jquery-3.5.1.min.js)
 
-## Code im proud of:
+## Code im proud of
+    ```javascript
 
  //hamburger menu
     $(document).ready(function(){
@@ -56,7 +57,8 @@ Functionality
         $('nav').toggle(500)
       });
     });
-
+ 
+    ```
 
 ## Issues and Resolutions:
 
