@@ -48,7 +48,7 @@ Functionality
     [Jquery](https://code.jquery.com/jquery-3.5.1.min.js)
 
 ## Code im proud of
- 
+ ```
 const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-cRbvh8KYimTwGEYPDoY/od6/public/values?alt=json`
   fetch(URL)  // starts the fetch process
     .then( response => response.json() )    // returns the JSON data as a JS object
@@ -67,9 +67,9 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
       app(projects)
     })
 
+```
 
-
-
+```
  //hamburger menu
     $(document).ready(function(){
       $('.burger').on('click',
@@ -77,6 +77,7 @@ const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-
         $('nav').toggle(500)
       });
     });
+```
 
 ## Issues and Resolutions:
 
