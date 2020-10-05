@@ -48,13 +48,35 @@ Functionality
     [Jquery](https://code.jquery.com/jquery-3.5.1.min.js)
 
 ## Code im proud of
-   //hamburger menu
-    $(document).ready(function(){
-      $('.burger').on('click',
-      function () {
-        $('nav').toggle(500)
-      });
-    });
+ 
+const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-cRbvh8KYimTwGEYPDoY/od6/public/values?alt=json`
+  fetch(URL)  // starts the fetch process
+    .then( response => response.json() )    // returns the JSON data as a JS object
+    .then( data => {
+      //console.log(data.feed);
+      // creates an array of parsed project objects
+      const projects = data.feed.entry.map( entry => {
+        return {
+           title: entry.gsx$title.$t,
+           image: entry.gsx$image.$t,
+           description: entry.gsx$description.$t,
+           url: entry.gsx$url.$t
+        }
+      })
+      //console.log(projects);
+      app(projects)
+    })
+
+
+
+
+ //hamburger menu
+    $(document).ready(function(){
+      $('.burger').on('click',
+      function () {
+        $('nav').toggle(500)
+      });
+    });
 
 ## Issues and Resolutions:
 
