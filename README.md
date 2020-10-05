@@ -4,9 +4,10 @@ This project is the creation of my website which will showcase the projects and 
 https://kvcobbs.netlify.app/
 
 
-Planning Documents
-Time matrix, wireframes and inspiration are in the project worksheet docx: https://docs.google.com/document/d/1XoOx7oe75qtft3XO8c9jswxPZ2pv8hwiopUUi_TOsPU/edit?usp=sharing
+## Planning Documents
 
+Time matrix, wireframes and inspiration are in the project worksheet docx:
+https://docs.google.com/document/d/1XoOx7oe75qtft3XO8c9jswxPZ2pv8hwiopUUi_TOsPU/edit?usp=sharing
 
 
 Functionality
@@ -40,46 +41,32 @@ Functionality
 | Total               |          | 16 hours       | 5 hours       | 11 hours    |
 
 
+## Additional Libraries
+    [Font Awesome](https://fontawesome.com/v4.7.0/)
+    [Jquery](https://code.jquery.com/jquery-3.5.1.min.js)
 
-Libraries used :[Font Awesome](https://fontawesome.com/v4.7.0/)
-
-Code im proud of
-
-form{
-  display:grid;
-  width: 100%;
-  padding: 20px;
-  grid-template-columns: [one] 1fr [two] 1fr [three] 1fr [four] 1fr [five] 1fr [six] 1fr ;
-  grid-template-rows:  [a] 1fr [b] 1fr [c] 1fr [d] 1fr  [e] 1fr [f] 1fr [g] 1fr [h] 1fr;
-  align-content:center;
-}
-
-
-.l1{
-  grid-column: three/five;
-  grid-row: a/b;
-  text-align:center;
-  font-size:30px;
-  width:100%;
-  background-color: #E5D4ED;
-  font-family: "Chango", sans-serif;
-  padding: 20px 0px 10px 0px;
-
-}
-
-.in1{
-  grid-column: three/five;
-  grid-row: b/c;
-  background-color:#E5D4ED;
-  padding: 20px 0px 0px 0px;
-}
-
-.in1 > #name{
-  border:solid #1D1128;
-}
+## Code im proud of
+const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-cRbvh8KYimTwGEYPDoY/od6/public/values?alt=json`
+  fetch(URL)  // starts the fetch process
+    .then( response => response.json() )    // returns the JSON data as a JS object
+    .then( data => {
+      //console.log(data.feed);
+      // creates an array of parsed project objects
+      const projects = data.feed.entry.map( entry => {
+        return {
+           title: entry.gsx$title.$t,
+           image: entry.gsx$image.$t,
+           description: entry.gsx$description.$t,
+           url: entry.gsx$url.$t
+        }
+      })
+      //console.log(projects);
+      app(projects)
+    })
 
 
-Issues and Resolutions
+
+## Issues and Resolutions
 
 The biggest issue I had was my hamburger menu. I originally wanted to make it without Javascript at all. But I couldn't get it to work. 
 
@@ -89,8 +76,10 @@ Resolutions: I found an article explaining hamburger menu with how to make it wo
  
 I solved my issue about my contact page but using control f to find the entry. info I needed on the page below instead of using the method shown to me using the video jendri linked. 
 
-References used:
 
+
+
+## References Used
 
  https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css
 
