@@ -30,6 +30,8 @@ Functionality
 
 
 
+
+
  Post MVP            |          |                |               |             |
 |---------------------|----------|----------------|---------------|-------------|
 | Component           | Priority | Estimated time | Time invested | Actual time |
@@ -45,37 +47,25 @@ Functionality
     [Font Awesome](https://fontawesome.com/v4.7.0/)
     [Jquery](https://code.jquery.com/jquery-3.5.1.min.js)
 
-## Code im proud of
-const URL =`https://spreadsheets.google.com/feeds/list/1MViuZY3POLBmZH_As9tH7CZ-cRbvh8KYimTwGEYPDoY/od6/public/values?alt=json`
-  fetch(URL)  // starts the fetch process
-    .then( response => response.json() )    // returns the JSON data as a JS object
-    .then( data => {
-      //console.log(data.feed);
-      // creates an array of parsed project objects
-      const projects = data.feed.entry.map( entry => {
-        return {
-           title: entry.gsx$title.$t,
-           image: entry.gsx$image.$t,
-           description: entry.gsx$description.$t,
-           url: entry.gsx$url.$t
-        }
-      })
-      //console.log(projects);
-      app(projects)
-    })
+## Code im proud of:
+
+ //hamburger menu
+    $(document).ready(function(){
+      $('.burger').on('click',
+      function () {
+        $('nav').toggle(500)
+      });
+    });
 
 
-
-## Issues and Resolutions
+## Issues and Resolutions:
 
 The biggest issue I had was my hamburger menu. I originally wanted to make it without Javascript at all. But I couldn't get it to work. 
+Resolutions: I found an article explaining hamburger menu with how to make it work using javascript. 
 
 My adding my contact page from google forms into my form. 
-
-Resolutions: I found an article explaining hamburger menu with how to make it work using javascript. 
- 
-I solved my issue about my contact page but using control f to find the entry. info I needed on the page below instead of using the method shown to me using the video jendri linked. 
-
+I solved my issue about my contact page but using control f to find the entry. info I needed on the page below instead of using the method shown to me using a youtube video:
+https://youtu.be/0ZobsvqYA94
 
 
 
