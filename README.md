@@ -42,17 +42,6 @@ https://docs.google.com/document/d/1XoOx7oe75qtft3XO8c9jswxPZ2pv8hwiopUUi_TOsPU/
 
 
 
-  MVP            |          |                |               |             |
-|---------------------|----------|----------------|---------------|-------------|
-| Component           | Priority | Estimated time | Time invested | Actual time |
-| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
-| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
-| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
-| Icon Nav                 | High | 3 hours  | 6 hours             | 5 hours              |
-
-
-
-
 
 
 Functionality
@@ -69,11 +58,6 @@ Functionality
 | Working with API         | High | 4 hours  | 2 hours             | 2 hours              |
 | Responsive               | High | 6 hours  | 3 hours on saturday | 3 hours              |
 | Total                    |      | 29 hours | 34 hours            | 36 hours             |
-
-
-
-
-
 
 
 
